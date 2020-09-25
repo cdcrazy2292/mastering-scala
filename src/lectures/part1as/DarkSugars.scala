@@ -15,7 +15,7 @@ object DarkSugars extends App {
   println(42)
   // A real case use of this sugar is the Try method
   val aTryInstance = Try {
-    throw new RuntimeException
+    throw new RuntimeException  
   }
 
   List(1,2,3).map {x =>
